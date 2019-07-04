@@ -1,3 +1,11 @@
-.navbar{
+.navbar {
     background-color: lightgray !important;
+}
+
+.h1r {
+    background-color:#4aaaa5;
+    color: white;
+    width: 180px;
+    margin-left:12.5%;
+    margin-top:15px;
 }
