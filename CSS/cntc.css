@@ -1,7 +1,20 @@
 .navbar {
-    background-color: lightgray !important;
+    background-color: #666666 !important;
 }
 
 h1 {
     font-family: 'Bahianita', cursive;
+}
+
+.container {
+    height: 700px;
+    background-color: #666666 !important;
+}
+
+footer {
+    border-top:5px solid #4aaaa5;
+    background-color: #666666;
+    height: 80px;
+    width: 100%;
+    bottom: 0;
 }
