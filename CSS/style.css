@@ -9,7 +9,7 @@
 }
 
 .container {
-    height: 700px;
+    min-height: 600px;
 }
 
 footer {
@@ -18,4 +18,35 @@ footer {
     height: 80px;
     width: 100%;
     bottom: 0;
+}
+
+@media (max-width: 960px) {
+img {
+    height: 150px;
+    width: 150px;
+}
+}
+
+@media (max-width: 768px) {
+p {
+    font-size: 1.25rem;
+    }
+img {
+    height: 120px;
+    width: 120px;
+}
+}
+
+@media (max-width: 640px) {
+p {
+    font-size:1.5rem;
+    line-height: 1.5;
+    }
+.h1r {
+    position:static;
+    }
+img {
+    height: 110px;
+    width: 110px;
+}
 }
